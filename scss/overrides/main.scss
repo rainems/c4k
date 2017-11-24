@@ -1,0 +1,11 @@
+@import "../variables.scss";
+@import "../mixins.scss";
+
+@import "header",
+        "news",
+        "about",
+        "events",
+        "donations",
+        "sponsors",
+        "contact",
+        "footer";

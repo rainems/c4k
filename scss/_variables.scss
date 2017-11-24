@@ -1,0 +1,22 @@
+// Variables
+
+// Gray and brand Colors for use across theme
+
+$theme-primary:     #54bbf5;
+$theme-secondary:     #fff;
+$theme-danger:     #fff;
+
+$gray-base:			#000 !default;
+$gray-darker:		lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:			lighten($gray-base, 20%) !default;   // #333
+$gray:				lighten($gray-base, 33.5%) !default; // #555
+$gray-light:		lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter:		lighten($gray-base, 93.5%) !default; // #eee
+
+// Custom rainbow colors
+
+$green: #b1eb00;
+$blue: $theme-primary;
+$pink: #fe84cd;
+$red:   #fe442b;
+$orange: #ffab02;

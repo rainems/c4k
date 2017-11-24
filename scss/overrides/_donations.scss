@@ -1,0 +1,34 @@
+#team {
+    background-image: url('../../img/team/donate-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    @include background-cover;
+}
+
+.donate-btn {
+  @include button-variant(white, $orange, $orange);
+
+  &:focus,
+  &.focus {
+    background-color: darken($orange, 5%);
+        border-color: darken($orange, 10%);
+  }
+  &:hover {
+    background-color: darken($orange, 5%);
+        border-color: darken($orange, 7%);
+  }
+  &:active,
+  &.active,
+  .open > &.dropdown-toggle {
+    background-color: darken($orange, 5%);
+        border-color: darken($orange, 7%);
+
+    &:hover,
+    &:focus,
+    &.focus {
+      background-color: darken($orange, 5%);
+          border-color: darken($orange, 10%);
+    }
+  }
+}

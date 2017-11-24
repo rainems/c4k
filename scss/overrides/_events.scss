@@ -1,0 +1,40 @@
+#portfolio {
+    background-image: url('../../img/portfolio/events-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    @include background-cover;
+}
+
+#carousel {
+  margin-bottom: 50px;
+
+  img {
+    margin: 0 auto;
+    width: 70%;
+    height: 500px;
+
+    @media screen and (max-width: 1024px) {
+      width: 80%;
+      height: 450px;
+    }
+
+    @media screen and (max-width: 900px) {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.carousel-control.right, .carousel-control.left {
+  @media screen and (min-width: 901px) {
+    background-image: none;
+  }
+}
+
+.carousel-indicators {
+  z-index: 100;
+}

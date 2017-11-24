@@ -1,0 +1,10 @@
+#about {
+    background-image: url('../../img/about/crayons.jpg');
+    background-repeat: repeat-y;
+    background-attachment: scroll;
+    background-position: 120% 0%;
+
+    @media screen and (max-width: 1024px) {
+      background: none;
+    }
+}
